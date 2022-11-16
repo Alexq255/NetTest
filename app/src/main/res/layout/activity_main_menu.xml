@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5B5959"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="Регистрация"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30sp"
+            android:background="#ffff"
+            android:text="Имя"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30sp"
+            android:background="#ffff"
+            android:text="Фамилия"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30sp"
+            android:background="#ffff"
+            android:text="Потча"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30sp"
+            android:background="#ffff"
+            android:text="Телефон"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:backgroundTint="#FB0E0E"
+
+            android:onClick="Button"
+            android:text="Регистрация" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
